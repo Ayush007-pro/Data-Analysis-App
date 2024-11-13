@@ -85,22 +85,6 @@ Activate the virtual environment:
 Install the required Python packages using `pip`:
 
 ```bash
-pip install -r requirements.txt
-```
-
-*If you don't have a `requirements.txt` file, you can create one with the following content:*
-
-```text
-streamlit
-pandas
-numpy
-seaborn
-matplotlib
-```
-
-Alternatively, install the packages individually:
-
-```bash
 pip install streamlit pandas numpy seaborn matplotlib
 ```
 
@@ -209,38 +193,6 @@ Consider adding the following features to enhance the app further:
 - **Export Visualizations:** Enable users to download the generated charts and plots.
 - **Data Transformation:** Provide options for data cleaning, such as handling missing values, encoding categorical variables, etc.
 - **Advanced Analytics:** Incorporate machine learning models for predictive analysis directly within the app.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-1. **Fork the Repository:**
-   - Click the "Fork" button at the top-right corner of the repository page.
-
-2. **Clone Your Fork:**
-   ```bash
-   git clone https://github.com/yourusername/data-analysis-app.git
-   cd data-analysis-app
-   ```
-
-3. **Create a New Branch:**
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-4. **Make Changes and Commit:**
-   ```bash
-   git add .
-   git commit -m "Add your descriptive commit message"
-   ```
-
-5. **Push to GitHub:**
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-
-6. **Create a Pull Request:**
-   - Navigate to your repository on GitHub and click the "Compare & pull request" button.
 
 ## License
 
